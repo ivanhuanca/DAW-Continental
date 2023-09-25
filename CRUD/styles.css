@@ -1,0 +1,33 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+
+form {
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+
+#product-list {
+  margin-top: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.product-item {
+  padding: 10px;
+  margin: 5px 0;
+}
+
+/* ocultar flechas de input numérico */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
